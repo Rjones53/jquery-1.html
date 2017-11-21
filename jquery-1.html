@@ -32,7 +32,18 @@
     $("h2").show();
     $("h3").show();
   }
+  function highlightByline(){
+    $("h2").addClass('yellow');
+  }
+  function unHighlightByline(){
+    $("h2").removeClass('yellow');
+  }
   </script>
+  <style>
+    .yellow {
+    color: #dec725;
+    }
+  </style>
 </head>
 <body>
   <h1>Lorem ipsum</h1>
